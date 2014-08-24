@@ -1,0 +1,66 @@
+PANIC BUTTONS:
+ - Instant Camera Mode : Press and Release Select/Back
+ - Instant Pointer Mode : Press and Release Select/Back, then press R3 (click Right Stick). 
+ - Instant normal Windows Operation : Use Instant Pointer Mode, or alternatively, just click (and release) the right mouse button. 
+ - NOTE: Due to how Guild Wars 2 handles Camera Mode, every time you lose control of your character, be it because of a cinematic sequence (like a story sequence or a vista) or a loading screen (both from zoning and teleporting far away), you'll have to press and release Select/Back to reset to Camera Mode. This will become natural after a while.
+ - NOTE: Due to a bug in XPadder's set changing logic (i.e. nothing we can do anything about), it's possible to be locked into the wrong set if certain combinations of shift keys are pressed in certain sequences. The latest version should set everything back to the right mode simply by pressing and releasing Select/Back in most cases; if this doesn't do the trick, just move in any direction, then press and release Select/Back again. 
+   
+Movement (Forward / Backward / Strafe) : Left Stick
+Camera (Rotate / Tilt) : Right Stick
+Camera Zoom : Hold RB, Right Stick Up/Down (works best if you tap Right Stick up or down a few times)
+Previous / Next Target : Hold RB, Right Analog Left/Right
+Call Target : Hold RB, R3
+Take Target : Hold RB, L3
+Close Window / Cancel Attack / Deselect Target / Open Main Menu : Start
+Class Mechanics (F1-F4) : D-Pad Up/Right/Down/Left (clockwise from top)
+Jump : A
+Interact : Hold RB, A
+Weapon Skill 1 : X
+Weapon Skill 2 : Y
+Weapon Skill 3 : B
+Weapon Skill 4 : LB
+Weapon Skill 5 : LT
+Utility Skill 1 : Hold RB, X
+Utility Skill 2 : Hold RB, Y
+Utility Skill 3 : Hold RB, B
+Healing Skill : Hold RB, LB
+Elite Skill : Hold RB, LT
+Dodge : RT
+Weapon Switch / Drop Bundle : L3
+Autorun : Hold RB, D-Pad Up
+Toggle Run / Walk : Hold RB, D-Pad Left
+Stow Weapons : Hold RB, D-Pad Right
+Swim Down : Hold RB, D-Pad Down
+Voice Chat Activation (F9) : Hold RB, Start
+About Face (U-Turn) : Hold Select/Back, LT
+Toggle Show / Hide Chat Pane : Hold Select/Back, D-Pad Left
+Toggle Show / Hide GUI : Hold Select/Back, D-Pad Right
+Take Screenshot : Hold Select/Back, D-Pad Up
+Take Screenshot Without GUI : Hold Select/Back, D-Pad Down
+
+Pointer Mode : Hold Select/Back
+Camera Mode : Release Select/Back
+Toggle Pointer Mode / Camera Mode : R3
+
+While in Pointer Mode:
+   Move Pointer : Right Stick
+   Left Click : RB
+   Right Click : RT
+   Close Window / Cancel Attack / Deselect Target / Open Main Menu : Start
+   Hero Pane : X
+   Inventory Pane : A
+   Map : Y
+   Social Pane : B
+   Toggle Skill Autoattack  : Hover over Toolbar Skill, RB
+   Go back to Camera Mode (from holding Select/Back) : Release Select/Back
+   Go back to Camera Mode (from toggling with R3) : R3, or press and release Select/Back
+   
+While in Map:
+   It is strongly recommended to use Camera Mode.
+   Move Pointer : Hold Select/Back, Right Stick
+   Re-center Map on Cursor : Release Select/Back
+   Re-center Map on Your Position : A
+   Click / Select Waypoints : Hold Select/Back, RB
+   Place Personal Waypoint : Hold Select/Back, R3
+   Zoom : Hold RB, Right Stick Up/Down
+   Switch Layer : Hold RB, Right Stick Left/Right

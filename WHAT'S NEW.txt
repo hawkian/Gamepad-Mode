@@ -1,0 +1,73 @@
+Version 1.0
+ - Initial release. Core functionality is to press F7 (bound to R3) to toggle between Pointer Mode and Camera Mode. 
+
+Version 1.2
+ - Added F8 (bound to Select/Back) as a "hold for Pointer Mode, release for Camera Mode" binding. Reworked "Simplified" configuration to work with it, having an actual separate Pointer Mode where RB and RT click the mouse buttons, among others. 
+
+Version 2.0
+ - Major rework of the AHK script, adding: 
+      - Auto-recenter (when releasing F8 / Select/Back, sets the mouse pointer to a predefined position that's optimal for aiming AOEs).
+	  - Crosshair (to further aid with AOE aiming, although only available in Windowed Mode). 
+ - Major rework of the Simplified configuration around the new AHK script, which both Hawkian and I have adopted as the ultimate one. Several hours of work, testing and iteration went into making all bindings as intuitive and ergonomic as possible; virtually everything has changed, so please check both the instructions and the bindings thoroughly. Many new functions have also been added to the configuration as well. All other configurations have been made entirely obsolete and removed from the package. 
+ 
+Version 2.1
+ - Minor additions to instructions and bindings. 
+ 
+Version 2.2
+ - Corrected some errors in the bindings sheet (most prominently, F1-F4 are bound to D-Pad, not RB + D-Pad anymore!) thanks to Hawkian. 
+ - Removed the AutoHotkey's script ability to create the .ini file if it doesn't exist, as it seems to be causing permissions problems to some users. 
+ 
+Version 2.3
+ - Added bindings for "Show / Hide GUI" and "Take Screenshot"
+ - Changed Pointer Mode + B to be bound to "Social Pane", as it seems to be used quite more often than "Leaderboard". 
+ - Made the Right Analog work in 4-direction mode when holding RB; this prevents many annoying mix-ups when pressing it diagonally by accident, like zooming out while meaning to switch targets (or viceversa), or zooming while intending to change the map layer (or viceversa).
+ - Added a typo in the instructions where it said Esc instead of Start. 
+ - Removed the ability of the AHK Script to regenerate the .ini file, as this requires write permissions.
+ 
+Version 2.4
+ - Added binding for "Take Screenshot with GUI off". 
+ - Added binding for "Take Target" (previously marked by Call Target by anyone in the party). 
+ - Clarified a couple of things in the bindings and instructions files. 
+ 
+Version 2.5
+ - Added a troubleshooting step for users that can't get the pointer recenter functionality to work.
+ - Added a modification by Hawkian that reverts the right stick to camera control when RB is held but a skill button is pressed. This is so as to help with targeting of utility and elite skills. 
+ - Actually made the change mentioned in 2.3 about Pointer Mode + B being bound to Social Pane, as it was documented but not actually implemented. 
+ 
+Version 2.6
+ - Fixed autocenter and crosshair so that they work correctly in non-maximized windowed mode.
+ - Added a setting to the .ini file that controls the default pointer (and crosshair) position. It's given as a percentage of Guild Wars 2's window's height, and it's set at 70% by default. 
+ - Raised the right analog's deadzone in shifted (RB) mode; this further prevents accidental zooming when changing targets. Thanks to Tragicomedy for the suggestion!
+ - Re-added the ability of the AHK Script to regenerate the .ini file; apparently this wasn't the source of the problems some people were experiencing. 
+ 
+Version 2.7
+ - Added documentation about an easier way to get back to normal Windows operation (right clicking, simply enough). Thanks to Hawkian for this seemingly obvious thing that somehow was lost on me. :D
+ - Added a "Lefty" folder with mouse button-reversed versions of everything needed. No need to move files around: just double click START LEFTY.bat inside that folder rather than START.bat in the root, and you're good to go. 
+ 
+Version 2.8
+ - Tweaked the timing of autocentering / entering camera mode to be more responsive, hopefully without breaking anything. 
+ - Set crosshair to be off by default. It's quite superfluous in the end, plus only users who play in windowed mode can benefit from it; fullscreen users get an ugly flicker when when recentering instead. Of course, it can still be enabled manually for windowed users via the .ini file, as mentioned in the instructions. 
+ 
+ Version 2.9
+ - Simplified the timing of autocentering / entering camera mode; basically removed all the delays, as they weren't doing that great of a job improving recentering, and they still made it somewhat unresponsive. As a bonus, the map can now be scrolled by holding the left analog in the opposite direction and tapping Back/Select. 
+ 
+ Version 2.10
+ - Changed the way zoom/map zoom works. The benefits of this are two-fold; map zoom is now more responsive (smoother increments), and also, it now works while defeated (GW2 seems to have a strange bug where the bound key for map zoom doesn't work when defeated, but the mousewheel will work). 
+ - IMPORTANT: as a consequence of the above, the keys that must be bound to camera zoom (NOT map zoom, mind you) have changed. Camera zoom WON'T work until you rebind them. Camera zoom in is now bound to Numpad 8 (instead of Numpad +) and zoom out to Numpad 2 (instead of Numpad -). Also, there is no need to overwrite the original bindings (PgUp and PgDown); now, they can be added as alternate bindings.
+ - Made it so that pressing any direction in the left analog stick while in Set 3 will switch to Set 1: this should help (and even prevent) most instances of being stuck in the wrong set and not being able to get back to Set 1 with just Select/Back. 
+ - Added "hide chat" command as Select/Back + D-Pad Left.
+ - Changed the script so that if run twice, it will not cause a prompt to replace the old copy in memory (it will automatically do so). This makes it so that running the .bat twice, for example, has no side-effects.
+ - Tweaked the deadzones and sensitivities a little bit.
+ 
+ Version 2.11
+ - Fixed file locations, so it should now not be necessary to manually select controller and game profiles the first time. 
+ - Removed Hawkian's modification from 2.5, since it introduces a possible case of being stuck in that set. 
+ - Fixed another potential "stuck in wrong set" problem in the main configuration related to using the healing skill. 
+
+ Version 2.12
+ - Made the left analog's left and right correspond to A and D rather than Q and E. This has the following effects:
+    1) Normal play is unchanged, because when holding the RMB, A and D keys strafe anyway.
+    2) When the right mouse button is not held, A and D make your character turn rather than strafe; this is beneficial for two reasons:
+        2.1) Makes you sharply and immediately aware that you either are in cursor mode, or (more often) the game is no longer acknowledging that you holding the right mouse button (i.e. after a cutscene, loading screen, etc.), prompting you to hit Select immediately.
+        2.2) It makes navigation actually viable in cursor mode in case of an emergency, or for simple navigation (ex. going to a different vendor) without changing modes. Up until now you lost the ability to turn in cursor mode, making navigation rather hard.		
+    3) Makes it so that the configuration now works out of the box as well for people that have remapped A and D to strafe.  
