@@ -58,6 +58,7 @@ You will also see XPadder's window pop up; if your Xbox 360 gamepad is connected
 The normal mode of operation is "Camera Mode". You can enter it in any one of two ways:
 
  a) Toggled by clicking the right analog stick (R3), or pressing F7. Pressing it once again will toggle back to "Pointer Mode".
+ 
  b) Pressing and releasing Select/Back, or pressing and releasing F8. This is the preferred way, as it will leave you in Camra Mode regardless of what mode you were in previously.
 What this does, mechanically, is to emulate holding down the right mouse button until you disable it by clicking R3 or pressing F7 again (this is called entering "Pointer Mode", more on this later). 
 
@@ -68,6 +69,7 @@ If you forget, though (and notice the mouse is acting as if the right mouse butt
 13) When you go back to Windows, or when you need to use the mouse pointer to manipulate menus, etc., you want to enter "Pointer Mode". This is done in one of two ways:
     
    a) Toggled by clicking the right analog stick (R3), or pressing F7. Pressing it once again will toggle back to "Camera Mode".
+   
    b) Entered by holding Select/Back, or holding F8. Releasing it will go back to "Camera Mode", even if that was not the original mode. This is useful for switching to Camera Mode in a hurry. When in "Pointer Mode", you will be able to move the mouse pointer freely. Some of the gamepad bindings will change, typically allowing the use of the mouse buttons. Consult the bindings of the specific configuration that you're using for details.
    
 14) When entering camera mode, by default, the mouse pointer will be reset to a predetermined position of the screen, centered horizontally and at about 70% of the window height. This is the optimal position to aim AOE rings, and since it resets to the same position every time, it gives you a frame of reference to aim them. For added accuracy, if you play Guild Wars 2 in Windowed Mode, you can enable a crosshair to be displayed where the pointer is. 
@@ -82,7 +84,7 @@ You can disable autocentering, enable the crosshair, or change the default posit
    
 16) TROUBLESHOOTING: If everything else works fine for you, but the pointer won't automatically recenter when you enter camera mode (i.e. it stays where you left it in pointer mode), then the most likely explanation is that Windows User Account Control is denying AutoHotkey of the permission to move the mouse. 
 
-The easiest way to solve this is by following Option A in the followign guide:
+The easiest way to solve this is by following Option A in the following guide:
 http://www.petri.co.il/disable-uac-in-windows-7.htm
 
 17) You're done, enjoy! There's a text file describing the control scheme, included in the zip file as BINDINGS.TXT. Be sure to check it and have it handy when first using a controller.
@@ -93,7 +95,7 @@ http://www.petri.co.il/disable-uac-in-windows-7.htm
 
                                                  
 
-                                   /////////////////////  INSTRUCTIONS (FOR CAUTIOUS PEOPLE) //////////////////////
+  /////////////////////  INSTRUCTIONS (FOR CAUTIOUS PEOPLE) //////////////////////
 
 
 
