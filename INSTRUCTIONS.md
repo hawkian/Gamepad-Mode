@@ -7,11 +7,11 @@
 
 
           
-                         /////////////////////               INSTRUCTIONS (FOR TRUSTING PEOPLE)           //////////////////////
+/////////////////////               INSTRUCTIONS (FOR TRUSTING PEOPLE)           //////////////////////
 
 1) Do not be intimidated. These seem like a lot of steps but they are mind-numbingly easy to do, or are merely informative. This very one is an example of both. :)
 
-2) If you're reading this online from the Google Docs site, you need to download and unpack, the entire bundle. Go to the listing with all the files, click "File" and select "Downlodad". 
+2) If you're reading this online on GitHub, you should have downloaded the zipped bundle already. This file is included in that package, but the formatting may be jumbled.
 
 Then, unzip the zip file into a folder of your choice. If you're using Windows Vista / Windows 7 or later, you might want to NOT put them in the Program Files folder, in case Windows gets all clingy with permissions. 
 
