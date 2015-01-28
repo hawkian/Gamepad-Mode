@@ -11,9 +11,7 @@
 
 1) Do not be intimidated. These seem like a lot of steps but they are mind-numbingly easy to do, or are merely informative. This very one is an example of both. :)
 
-2) If you're reading this online from the Google Docs site, you need to download and unpack, the entire bundle. Go to the listing with all the files, click "File" and select "Downlodad". 
-
-Then, unzip the zip file into a folder of your choice. If you're using Windows Vista / Windows 7 or later, you might want to NOT put them in the Program Files folder, in case Windows gets all clingy with permissions. 
+2) If you're reading this online, you need to download and unpack, the entire bundle. Unzip the zip file into a folder of your choice. If you're using Windows Vista / Windows 7 or later, you might want to NOT put them in the Program Files folder, in case Windows gets all clingy with permissions. 
 
 3) Scan all the executables in this zip with your favorite antivirus and/or anti-malware software. Yes, I said trusting people, not reckless.
 
