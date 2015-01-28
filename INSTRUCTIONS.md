@@ -22,6 +22,7 @@
 6) Two icons should appear on your notification bar: 
     
    a) A gamepad with a smile: that's XPadder, the program doing most of the work.
+   
    b) An H in a green square: that's a precompiled AutoHotKey script used for a couple of bindings for camera control. Namely, it binds F7 to "toggle holding the right mouse button", and F8 to "release the right mouse button while I'm holding it (F8)". 
 
 You will also see XPadder's window pop up; if your Xbox 360 gamepad is connected and on, it should show an image of it with all the key bindings (if it doesn't, see next step). 
